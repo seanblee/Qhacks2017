@@ -23,4 +23,10 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.activity_main);
         }
     }
+
+    public void addPost(View v){
+        Intent i = new Intent(getApplicationContext(),CreatePostActivity.class);
+        startActivity(i);
+    }
+
 }
