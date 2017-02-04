@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     public void SignUp(View view){
         Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
         startActivity(intent);
-        finish();
     }
 
     public void ControlPan(View view){
