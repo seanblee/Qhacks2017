@@ -2,9 +2,9 @@
 qhacks project
 
 ## Team Roster
-Sean
+[Sean] (sean.jpg)
 <p> Andus
 <p> Darian
-<p> Justin
+<p> [Justin] (justin.jpg)
 <p> Sageewan
 <p> Martin
