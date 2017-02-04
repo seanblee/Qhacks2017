@@ -18,6 +18,7 @@ package="com.seanlee.ease">
     </activity>
     <activity android:name=".MainActivity"></activity>
     <activity android:name=".SignupActivity"></activity>
+    <activity android:name=".LoginActivity"></activity>
 </application>
 
 </manifest>

@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void LogIn(View view){
+        Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+        startActivity(intent);
+    }
+
     public void ControlPan(View view){
         setContentView(R.layout.activity_main);
     }
