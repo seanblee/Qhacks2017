@@ -29,4 +29,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void userProfile(View v){
+        Intent i = new Intent(getApplicationContext(),UserProfile.class);
+        startActivity(i);
+    }
+
 }
