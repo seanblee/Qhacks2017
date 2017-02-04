@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="5"
-            android:src = "@drawable/FrontIcon">
+            android:src = "@drawable/frontico">
         </ImageView>
 
         <ImageButton
@@ -33,7 +33,7 @@
             android:scaleType="fitCenter"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:src="@drawable/Login"
+            android:src="@drawable/login_button"
             >
 
         </ImageButton>
@@ -46,7 +46,7 @@
             android:scaleType="fitCenter"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:src="@drawable/Sign_up">
+            android:src="@drawable/sign_button">
         </ImageButton>
 
         <ImageButton
@@ -57,7 +57,7 @@
             android:scaleType="fitCenter"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:src="@drawable/Guide">
+            android:src="@drawable/guide_button">
         </ImageButton>
 
 
