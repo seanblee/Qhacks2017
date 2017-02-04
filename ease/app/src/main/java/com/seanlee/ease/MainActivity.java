@@ -15,4 +15,8 @@ public class MainActivity extends AppCompatActivity {
     public void SignUp(View view){
         setContentView(R.layout.sign_up);
     }
+
+    public void ControlPan(View view){
+        setContentView(R.layout.activity_main);
+    }
 }
