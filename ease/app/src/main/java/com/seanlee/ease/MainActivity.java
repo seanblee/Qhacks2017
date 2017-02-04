@@ -16,11 +16,17 @@ public class MainActivity extends AppCompatActivity {
         FirebaseAuth user = FirebaseAuth.getInstance();
 
         if (user.getCurrentUser() == null) {
-            startActivity(new Intent(MainActivity.this, LoadActivity.class));
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
             finish();
         }
         else {
             setContentView(R.layout.activity_main);
         }
     }
+
+    public void addPost(View view){
+        Intent i = new Intent(getApplicationContext(),CreatePostActivity.class);
+        startActivity(i);
+    }
+
 }
