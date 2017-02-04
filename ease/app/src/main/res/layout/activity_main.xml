@@ -23,7 +23,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:text = "TEST DATABASE"/>
+        android:text = "user profile"
+        android:onClick="EditProfile"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="40dp"
