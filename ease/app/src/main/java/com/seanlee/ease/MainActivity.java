@@ -1,5 +1,6 @@
 package com.seanlee.ease;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +14,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void SignUp(View view){
-        setContentView(R.layout.sign_up);
+        Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     public void ControlPan(View view){
