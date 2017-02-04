@@ -15,7 +15,7 @@ public class LoadingScreen extends AppCompatActivity {
             public void run() {
                 try {
                     sleep(3000);
-                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), LoadActivity.class);
                     startActivity(intent);
                     finish();
                 } catch (InterruptedException e) {
