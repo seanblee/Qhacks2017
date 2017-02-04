@@ -67,7 +67,7 @@
             android:id="@+id/price"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="Amound Offered"
+            android:hint="Amount Offered"
             android:inputType="textAutoCorrect" />
     </LinearLayout>
 
