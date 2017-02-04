@@ -4,14 +4,64 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fffff0"
     tools:context="com.seanlee.ease.MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#fffff0">
+
+        <ImageView
+            android:paddingTop = "20dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:src = "@drawable/FrontIcon">
+        </ImageView>
+
+        <ImageButton
+            android:background="#fffff0"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:layout_width="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/Login"
+            >
+
+        </ImageButton>
+
+        <ImageButton
+            android:background="#fffff0"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:layout_width="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/Sign_up">
+        </ImageButton>
+
+        <ImageButton
+            android:background="#fffff0"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:layout_width="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/Guide">
+        </ImageButton>
+
+
+    </LinearLayout>
+
+
 </RelativeLayout>
