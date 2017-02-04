@@ -3,8 +3,8 @@ qhacks project
 
 ## Team Roster
 Sean
-Andus
-Darian
-Justin
-Sageewan
-Martin
+<p> Andus
+<p> Darian
+<p> Justin
+<p> Sageewan
+<p> Martin
