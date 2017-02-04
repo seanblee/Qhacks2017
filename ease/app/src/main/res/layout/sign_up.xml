@@ -7,16 +7,16 @@
     android:background="#fffff0"
     tools:context="com.seanlee.ease.MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal"
-        android:background="#ffff0000">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:orientation="horizontal"
+       android:background="#ffff0000">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:src="@drawable/logo"/>
-    </LinearLayout>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:src="@drawable/logo"/>
+   </LinearLayout>
 
 </RelativeLayout>

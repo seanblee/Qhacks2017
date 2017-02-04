@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "389683181701",
+    "firebase_url": "https://ease-fd109.firebaseio.com",
+    "project_id": "ease-fd109",
+    "storage_bucket": "ease-fd109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389683181701:android:49cf268ddcde8d50",
+        "android_client_info": {
+          "package_name": "com.seanlee.ease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389683181701-5mmb8q6tg54cise88lepghkul69b627h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbvzqISOtgCxiiJFWra1etbAPU1RZGMB4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
