@@ -20,6 +20,7 @@ package="com.seanlee.ease">
     <activity android:name=".SignupActivity"></activity>
     <activity android:name=".LoginActivity"></activity>
     <activity android:name=".CreatePostActivity"></activity>
+    <activity android:name=".UserProfile"></activity>
 </application>
 
 </manifest>

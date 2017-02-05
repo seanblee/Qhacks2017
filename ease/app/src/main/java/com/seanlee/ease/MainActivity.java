@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void userProfile(View v){
+    public void userProfile(View view){
         Intent i = new Intent(getApplicationContext(),UserProfile.class);
         startActivity(i);
     }
