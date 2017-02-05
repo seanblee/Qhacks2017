@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void addPost(View v){
+    public void addPost(View view){
         Intent i = new Intent(getApplicationContext(),CreatePostActivity.class);
         startActivity(i);
     }
